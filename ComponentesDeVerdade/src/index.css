@@ -1,0 +1,17 @@
+:root{
+    --cor-1: #9d8189;
+    --cor-2: #D9B0BF;
+    --cor-3: #F2D8Df;
+    --cor-4: #ffffff;
+    --cor-5: #d8e2dc;
+}
+
+
+.imagem img{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}

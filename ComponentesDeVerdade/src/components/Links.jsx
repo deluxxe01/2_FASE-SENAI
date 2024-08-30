@@ -2,7 +2,9 @@ function Links() {
     return(
 
         <div>
-            <p>Link 1 | Link 2 | Link 3 | Link 4</p>
+           <a href="https://www.instagram.com/dudaklin_/?igsh=M2dpNXl0b3dsdG0x&utm_source=qr">Instagram</a> 
+           <br></br>
+           <a href="https://github.com/deluxxe01">GitHub</a>
         </div>
     )
 }
