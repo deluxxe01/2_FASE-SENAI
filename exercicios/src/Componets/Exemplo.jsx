@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Exemplo.css'
 function Exemplo() {
 
     const [resultado, setResultado] = useState(0)
@@ -12,9 +13,10 @@ function Exemplo() {
 
   return (
       <div className="Exemplo-container">
+       <h2> Mini Calculadora </h2>
         <button onClick={diminuir} >-</button>
-        {resultado}
         <button onClick={aumentar}>+</button>
+        <div>Resultado: {resultado}</div>
     </div>
   )
 }

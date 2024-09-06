@@ -15,9 +15,10 @@ function Copo() {
   return (
     <div className="Copo-container">
       <h2>Copo meio cheio</h2>
+      <div>Calcular se o número é positivo, negativo ou nulo </div>
       <button onClick={processarNumero}>Processar</button>
       <div>
-        {resultado}
+        Resultado: {resultado}
       </div>
     </div>
   )

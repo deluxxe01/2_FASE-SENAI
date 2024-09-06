@@ -1,16 +1,21 @@
 
 import './App.css'
+
+import Salario from './Componets/Salario'
+import DoisCopos from './Componets/DoisCopos'
+import Copo from './Componets/Copo'
 import Media from './Componets/Media'
 import Exemplo from './Componets/Exemplo'
-import Copo from './Componets/Copo'
 
 function App() {
 
 
   return (
     <>
+    <Salario />
+    <DoisCopos />
     <Copo />
-     <Media />
+    <Media />
     <Exemplo /> 
     
     
