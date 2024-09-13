@@ -8,12 +8,15 @@ import DoisCopos from './Componets/DoisCopos'
 import Copo from './Componets/Copo'
 import Media from './Componets/Media'
 import Exemplo from './Componets/Exemplo'
+import DiaSemana from './Componets/DiaSemana'
 
 function App() {
 
 
   return (
     <>
+
+    <DiaSemana />
     <StarUberPt2 />
     <StarUber />
     <Salario />
@@ -21,8 +24,7 @@ function App() {
     <Copo />
     <Media />
     <Exemplo /> 
-    
-    
+
     </>
   )
 }
