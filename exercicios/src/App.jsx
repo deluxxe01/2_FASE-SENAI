@@ -3,6 +3,7 @@ import './App.css'
 
 import StarUberPt2 from './Componets/StaarUberPt2'
 import StarUber from './Componets/StarUber'
+import Garcom from './Componets/Garcom'
 import Salario from './Componets/Salario'
 import DoisCopos from './Componets/DoisCopos'
 import Copo from './Componets/Copo'
@@ -19,6 +20,7 @@ function App() {
     <DiaSemana />
     <StarUberPt2 />
     <StarUber />
+    <Garcom />
     <Salario />
     <DoisCopos />
     <Copo />

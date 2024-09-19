@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 function Salario(){
     const [resultado, setResultado] = useState()
-    function lerSalario(){
+    function lerSalario(){    
         let salario = Number(prompt("Digite seu salário: "))
         if (salario <= 0 ){
             alert("Todos os valores devem ser positivos e diferentes de zero.")
